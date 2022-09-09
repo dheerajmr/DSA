@@ -88,7 +88,7 @@ public class Adj_Graph {
 		
 		return false;
 	}
-	
+	// recursion method of dfs
 	public boolean dfs(int source, int destination) {
 		boolean vis[] = new boolean[adj.length];
 		vis[source] = true;
